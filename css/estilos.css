@@ -148,6 +148,9 @@ hr {
  /* ____________________________________________________ */
 /* ESTILO PARA LA SECTION2 */
 /* Estilo de titulo de la section2*/
+#logogrupo5{
+	width : 150px;
+}
 .titulo_section2 {
 	font-size: 15px;
 	font-weight: bold;
