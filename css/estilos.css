@@ -1,0 +1,199 @@
+/* ----------------- */
+/* ESTILOS GENERALES */
+/* ----------------- */
+
+
+/* Estilo del body */
+body{
+    background-color: #e6e1e1;
+}
+
+/* centrar contenido  */
+.contenido_centrado {
+	display: flex;
+	justify-content:center;
+}
+
+.texto15px_bold {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.texto20px_bold {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.texto20px_bold_blanco {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.texto15px{
+	font-size: 15px;
+}
+
+.texto30px_bold {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.texto_centrado {
+	text-align:center;
+} 
+
+.nav-link{
+    color:#000000;
+}
+
+.cajilla_superior{
+	text-align: center;
+ 	padding: 10px 10px ;
+	border: 1px  solid #8b5713;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 1px 1px 7px black;
+}
+
+
+hr { 
+    border: none; 
+    height: 1px;
+    color: #333;
+    background-color: #333;
+ }
+
+ .borde_10px {
+    box-shadow: 1px 1px 15px black;
+    border-radius: 8px 8px 8px 8px;
+ }
+
+
+.color_titulo_section{
+    color:#ffffff;
+}
+
+.width_15{
+	width: 15%;
+}
+
+/* -------------- */
+/* estilo setion1 */
+/* -------------- */
+
+.color_fondo_section1{
+
+	background-color: #8b5713;
+}
+
+.color_icono_section1{
+	color: #462d0c;
+}
+
+
+
+/* -------------- */
+/* estilo setion 2 */
+/* -------------- */
+
+.color_fondo_section2{
+
+	background-color: #053f00;
+}
+
+.color_icono_section2{
+	color: #052c15;
+}
+
+.color_fondo_sectiones2{
+
+	background-color: #eff5eec4;
+}
+
+
+/* -------------- */
+/* estilo setion 3 */
+/* -------------- */
+
+.color_fondo_section3{
+
+	background-color: #1547d1;
+}
+
+.color_icono_section3{
+	color: #052c15;
+}
+
+
+/* ----------------- */
+/* ESTILOS CABECERA */
+/* ----------------- */
+
+.color_fondo_cabecera{
+
+	background-color: #e1e4e2 ;
+}
+
+.borde10_inferior_degradado{
+    border: 10px solid; 
+    border-color: #e1e4e2;
+   border-top-style: none; 
+   border-right-style: none;
+   border-bottom-style: solid;
+   border-left-style: none;
+   box-shadow: 2px 2px 7px #666363;
+   padding-top: 10px;
+ }
+
+ /* ____________________________________________________ */
+/* ESTILO PARA LA SECTION2 */
+/* Estilo de titulo de la section2*/
+.titulo_section2 {
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Verdana;
+	color: #000000;
+}
+
+/* estilo del texto de resumen de la section2*/
+.texto_resumen_section2 {
+    padding: 10px 10px ;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Verdana;
+	color: #000000;
+	text-align: justify;
+}
+
+/* estilo del enlace leer mas> de la section2*/
+.leer_mas {
+	color: #000000;
+	text-align: right;
+	font-size: 15px;
+}
+
+.estilo_titulo_noticia {
+	font-size: 30px;
+	font-family: "Trebuchet MS", Verdana;
+	color: #000000;
+	text-align: center;
+}
+
+.estilo_texto_noticia {
+	font-size: 20px;
+	font-family: "Trebuchet MS", Verdana;
+	color: #000000;
+	text-align: justify;
+}
+
+ /* ____________________________________________________ */
+/* ESTILO PARA PIE DE PAGINA - FOOTER*/
+/* */
+footer{
+    align-self: flex-end;
+	/* background-image: url("../imagenes/fthuella.jpg"); */
+	background-color: #052c15;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
+ 
