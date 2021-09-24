@@ -10,6 +10,7 @@ body{
 
 /* centrar contenido  */
 .contenido_izquierda{
+	display: flex;
 	justify-content:left;
 }
 .contenido_centrado {
@@ -203,4 +204,12 @@ footer{
     width: 100%;
     margin-bottom: 0px;
 }
- 
+
+.S3{
+	align-self: flex-end;
+	/* background-image: url("../imagenes/fthuella.jpg"); */
+	background-color: #1e643c;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
